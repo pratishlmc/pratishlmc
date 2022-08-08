@@ -1,1 +1,0 @@
-# Pratish Lamichhane
