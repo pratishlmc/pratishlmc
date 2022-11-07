@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import Head from "next/head";
 import {
   AiFillLinkedin,
@@ -59,7 +60,7 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               Freelancer providing services for programming and design content
-              needs. Join me down below and let's get cracking!
+              needs. Join me down below and {`let's`} get cracking!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillInstagram cursor={'pointer'} href="https://www.instagram.com/pratishlmc/" />
@@ -67,7 +68,7 @@ export default function Home() {
               <AiFillYoutube cursor={'pointer'} href="https://www.youtube.com/channel/UCZf0a2Rg8PWTfU3D3S3KhZg" />
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={pratishlmc} layout="fill" objectFit="cover" />
+              <Image src={require("../public/pratishlmc.jpg")} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -75,7 +76,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl mt-3 py-1 dark:text-white ">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance developer, I've done work for
+              Since the beginning of my journey as a freelance developer, {`I've`} done work for
               <span className="text-teal-500"> my projects </span> &
               consulted for <span className="text-teal-500">startups </span>
               and collaborated with talanted people to create digital products
@@ -104,7 +105,7 @@ export default function Home() {
                 Code your dream project
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
+                Do you have an idea for your next great website? {`Let's`} make it a
                 reality.
               </p>
 
@@ -123,7 +124,7 @@ export default function Home() {
           <h3 className="text-2xl text-white font-bold">Get in touch</h3>
           <div class="mt-3 flex gap-2 items-center">
             <a
-              target={'_blank'} rel="noopener" href="https://mail.google.com/mail/u/0/?fs=1&to=pratishlmc@gmail.com&su=SUBJECT&body=BODY&tf=cm">
+              target={'_blank'} rel="noreferrer" href="https://mail.google.com/mail/u/0/?fs=1&to=pratishlmc@gmail.com&su=SUBJECT&body=BODY&tf=cm">
               <div class="text-center py-3 px-5 rounded-sm cursor-pointer bg-blue-700 w-fit "><span class="satoshi-font text-white font-semibold text-lg">pratishlmc@gmail.com</span></div>
             </a>
             <AiFillCopy style={{ backgroundColor: "rgb(204 251 241)", padding: 5, borderRadius: '5px', cursor: 'pointer' }} color="rgb(13 148 136)" size={40} />
