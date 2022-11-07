@@ -122,12 +122,14 @@ export default function Home() {
           </div>
 
           <h3 className="text-2xl text-white font-bold">Get in touch</h3>
-          <div class="mt-3 flex gap-2 items-center">
+          <div className="mt-3 flex gap-2 items-center">
             <a
               target={'_blank'} rel="noreferrer" href="https://mail.google.com/mail/u/0/?fs=1&to=pratishlmc@gmail.com&su=SUBJECT&body=BODY&tf=cm">
-              <div class="text-center py-3 px-5 rounded-sm cursor-pointer bg-blue-700 w-fit "><span class="satoshi-font text-white font-semibold text-lg">pratishlmc@gmail.com</span></div>
+              <div className="text-center py-3 px-5 rounded-sm cursor-pointer bg-blue-700 w-fit">
+                <span className="satoshi-font text-white font-semibold text-lg">pratishlmc@gmail.com</span>
+              </div>
             </a>
-            <AiFillCopy style={{ backgroundColor: "rgb(204 251 241)", padding: 5, borderRadius: '5px', cursor: 'pointer' }} color="rgb(13 148 136)" size={40} />
+            <AiFillCopy onClick={() => navigator.clipboard.writeText("pratishlmc@gmail.com")} style={{ backgroundColor: "rgb(204 251 241)", padding: 5, borderRadius: '5px', cursor: 'pointer' }} color="rgb(13 148 136)" size={40} />
           </div>
 
         </section>
