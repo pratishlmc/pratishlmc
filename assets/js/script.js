@@ -4,22 +4,22 @@ const projectsContainer = document.getElementById("projects-container")
 let projects = [
   {
     title: "MacAlistair Vlogs",
-    picture: "../../macalistairvlogs.png",
+    picture: "../projects/macalistairvlogs.png",
     link: "https://macalistair-vlogs.vercel.app/"
   },
   {
     title: "Notes Application",
-    picture: "../../notesapp.png",
+    picture: "../projects/notesapp.png",
     link: "https://macalistair-vlogs.vercel.app/"
   },
   {
     title: "Dictionary",
-    picture: "../../dictionary.png",
+    picture: "../projects/dictionary.png",
     link: "https://cab-dictionary.vercel.app/"
   },
   {
     title: "Book Store",
-    picture: "./Hotpot.png",
+    picture: "../projects/Hotpot.png",
     link: "https://macalistair-vlogs.vercel.app/"
   },
 
