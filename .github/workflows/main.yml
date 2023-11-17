@@ -21,7 +21,6 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ftp.pratishlamichhane.com.np
+          server: 69.57.172.41
           username: pratishlmc@pratishlamichhane.com.np
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
